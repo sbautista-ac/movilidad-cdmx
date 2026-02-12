@@ -1,0 +1,16 @@
+# OS generate files
+.DS_Store
+Thumbs.db
+#IDE generate files
+.idea/
+.vscode/
+*.iml
+#Meadia generate files
+*.mp4
+*.avi
+*.ai
+*.psd
+*.png
+*.jpg
+*.indd
+*.pdf
