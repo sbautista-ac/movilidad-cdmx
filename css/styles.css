@@ -1,14 +1,48 @@
+
+:root{
+    --bg-color: rgb(238, 31, 169);
+    --text-color: rgb(255, 255, 255);
+    --accent-color: rgb(0, 0, 0);
+    --fuente-titulos: "skew-variable", sans-serif;
+    --fuente-texto: "tonos", sans-serif;
+}
+html{
+    font-size: 100%;
+}
 body{
-    background-color: rgb(238, 31, 169);
-    color: white;
-    font-family: "tonos", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--fuente-texto);
+    font-size: 1.3rem;
 }
 a{
     color: inherit;   
 }
 h1, h2, h3, h4, h5, h6{
 
-    font-family: "skew-variable", sans-serif;
+    font-family: var(--fuente-titulos);
     font-variation-settings: "wght" 400;
 
+}
+h1{
+    font-size: 3em;
+}  
+
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+h5{
+    font-size: 1.25em;
+}
+
+h6{
+    font-size: 1em;
 }
