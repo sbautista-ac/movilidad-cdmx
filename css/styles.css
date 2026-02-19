@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(238, 31, 169);
+    color: white;
+    font-family: "tonos", sans-serif;
+}
+a{
+    color: inherit;   
+}
+h1, h2, h3, h4, h5, h6{
+
+    font-family: "skew-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+
+}
