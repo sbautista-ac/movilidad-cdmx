@@ -1,19 +1,21 @@
 
 :root{
-    --bg-color: rgb(238, 31, 169);
+    --bg-color: rgb(129, 78, 112);
     --text-color: rgb(255, 255, 255);
     --accent-color: rgb(0, 0, 0);
     --fuente-titulos: "skew-variable", sans-serif;
     --fuente-texto: "tonos", sans-serif;
 }
 html{
-    font-size: 100%;
+    font-size: 14px;
 }
 body{
+max-width: 70ch;   /* Cambia 600px al ancho que prefieras */
+ margin: 0 auto;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--fuente-texto);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 a{
     color: inherit;   
@@ -25,24 +27,24 @@ h1, h2, h3, h4, h5, h6{
 
 }
 h1{
-    font-size: 3em;
+    font-size: 4em;
 }  
 
 h2{
-    font-size: 2.5em;
-}
-h3{
     font-size: 2em;
 }
-
-h4{
+h3{
     font-size: 1.5em;
 }
 
-h5{
-    font-size: 1.25em;
+h4{
+    font-size: 1.2em;
+}
+a{
+color: var(--accent-color);
+}
+a:hover{
+   text-decoration: none;
+   color: rgb(30, 34, 243);
 }
 
-h6{
-    font-size: 1em;
-}
