@@ -8,10 +8,13 @@
 }
 html{
     font-size: 14px;
+    scroll-behavior: smooth;
 }
 body{
+    width: 100%;
 max-width: 70ch;   /* Cambia 600px al ancho que prefieras */
  margin: 0 auto;
+ padding: 2em;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--fuente-texto);
