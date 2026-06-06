@@ -1,7 +1,7 @@
 :root {
-    --bg-color: rgb(129, 78, 112);
+    --bg-color: rgb(176, 46, 132);
     --text-color: rgb(255, 255, 255);
-    --accent-color: rgb(0, 0, 0);
+    --accent-color: rgb(80, 235, 255);
     --fuente-titulos: "laca-variable", sans-serif;
     --fuente-texto: "tonos", sans-serif;
 }
@@ -59,11 +59,11 @@ a {
     color: var(--accent-color);
     transition: all 0.3s ease;
     font-family: var(--fuente-titulos);
-    font-variation-settings: 'wght' 270; /*el peso inicial de la fuente para los enlaces*/
+    font-variation-settings: 'wght' 470; /*el peso inicial de la fuente para los enlaces*/
 }
 
 a:hover {
     text-decoration: none;
-    color: rgb(247, 48, 181);
+    color: rgb(237, 245, 238);
     font-variation-settings: 'wght' 600;  /*cambiar el peso de la fuente al hacer hover*/
 }
